@@ -1,0 +1,50 @@
+[
+    {
+        "type":"Animation",
+        "name":"FrogColor",
+        "source":"/src/game/main/assets/Frog.png",
+        "dimensions":{
+            "x": 200,
+            "y": 200    
+        },
+        "frames": 4,
+        "fps": 3,
+        "gridSize": {
+            "x": 32,
+            "y": 32
+        }
+    },
+    {
+        "type": "Sprite",
+        "name":"Frog",
+        "source": "/src/game/main/assets/OneFrog.png",
+        "dimensions": {
+            "x":200,
+            "y":200
+        }
+    },
+    {
+        "type":"Sprite",
+        "name":"JohnIdle",
+        "source": "/src/game/main/assets/johnnyIdle.png",
+        "dimensions":{
+            "x":200,
+            "y":200
+        }
+    },
+    {
+        "type":"Animation",
+        "name":"JohnRun",
+        "source":"/src/game/main/assets/john.png",
+        "dimensions":{
+            "x": 200,
+            "y": 200    
+        },
+        "frames": 6,
+        "fps": 10,
+        "gridSize": {
+            "x": 128,
+            "y": 128
+        }
+    }
+]
